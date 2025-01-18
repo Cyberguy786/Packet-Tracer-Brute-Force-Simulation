@@ -2,6 +2,8 @@
 
 This project simulates brute-force attacks on HTTP, FTP, and DNS services using Cisco Packet Tracer. The purpose is to demonstrate how a small network setup can be used to understand attack vectors and mitigation techniques.
 
+**Note:** This is a **manual attack simulation** tailored for Packet Tracer due to its limited automation capabilities.
+
 ---
 
 ## Network Topology
