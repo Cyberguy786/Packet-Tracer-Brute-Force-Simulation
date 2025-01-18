@@ -12,7 +12,7 @@ The network consists of:
 - **1 PC** (192.168.1.2)
 - **1 Server** (192.168.1.3)
 
-![Topology](screenshots/topology.png)
+![Topology](topology.png)
 
 ---
 
@@ -98,24 +98,16 @@ Here are some effective strategies to prevent or mitigate brute-force attacks:
 ## Screenshots
 
 ### Topology
-![Topology](screenshots/topology.png)
+![Topology](topology.png)
 
 ### FTP Test
-![FTP Test](screenshots/ftp_test.png)
+![FTP Test](ftp_test.PNG)
 
 ### HTTP Test
-![HTTP Test](screenshots/http_test.png)
+![HTTP Test](http_test.PNG)
 
 ### DNS Test
-![DNS Test](screenshots/dns_test.png)
-
----
-
-## Future Enhancements
-
-1. Automate brute-force attacks using external tools (requires a real network setup).
-2. Expand the network with additional devices for advanced testing.
-3. Add intrusion detection/prevention systems (IDS/IPS).
+![DNS Test](dns_test.PNG)
 
 ---
 
