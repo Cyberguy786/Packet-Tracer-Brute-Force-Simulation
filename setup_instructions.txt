@@ -1,0 +1,38 @@
+# Setup Instructions for Packet Tracer Brute-Force Simulation
+
+1. Open the `BruteForceSimulation.pkt` file in Packet Tracer.
+2. Configure the following:
+
+## Router Configuration
+- Interface G0/0: IP 192.168.1.1, Subnet Mask 255.255.255.0
+- No shutdown
+
+## PC Configuration
+- IP: 192.168.1.2
+- Subnet Mask: 255.255.255.0
+- Gateway: 192.168.1.1
+
+## Server Configuration
+- IP: 192.168.1.3
+- Subnet Mask: 255.255.255.0
+- Gateway: 192.168.1.1
+- Services:
+  - FTP: Enable and set username/password
+  - HTTP: Enable
+Create a simple web page with a login form. For example:
+html
+Copy
+Edit
+<html>
+<body>
+<form action="login" method="POST">
+Username: <input type="text" name="username"><br>
+Password: <input type="password" name="password"><br>
+<input type="submit" value="Login">
+</form>
+</body>
+</html>
+Save the Web Page:
+
+You can name the page index.html and upload it to the server.
+  - DNS: Enable and add record www.example.com → 192.168.1.3
